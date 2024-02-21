@@ -1,0 +1,23 @@
+{
+  "name": "avanzado-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --e2e -b chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabrizioOtranto/avanzado-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabrizioOtranto/avanzado-1/issues"
+  },
+  "homepage": "https://github.com/FabrizioOtranto/avanzado-1#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
