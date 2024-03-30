@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
-import { WebPage } from "../../support/pages/webPage";
-import { ProductsPage } from "../../support/pages/productsPage";
+import { WebPage } from "../../../support/pages/webPage";
+import { ProductsPage } from "../../../support/pages/productsPage";
 
 describe('First challenge', () => {
     let datos;
@@ -12,7 +12,7 @@ describe('First challenge', () => {
         cy.fixture('archivoFixture').then(archivoFixtureParametro => {
             datos = archivoFixtureParametro;
         })
-    })
+    });
 
     it('Add, serch, delete and validate product', () => {
         const idAleatorio = Math.floor(100000 + Math.random() * 900000);

@@ -1,0 +1,15 @@
+{
+    "product": {
+        "name": "test-product",
+        "price": 14,
+        "img": "https://images.app.goo.gl/A4B2yxTveK1gttYt9",
+        "id": 1237
+    },
+
+    "updatedFields": {
+        "name": "test-product-edit",
+        "price": 12,
+        "img": "https://images.app.goo.gl/mEkHCpf4tqqAuNU28",
+        "id": 1237
+    }
+}

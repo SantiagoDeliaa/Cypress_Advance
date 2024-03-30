@@ -1,7 +1,7 @@
 export class ProductsPage {
     constructor() {
-        this.productoShirt = '#blacktshirt';
-        this.productoCup = '#redcup'
+        this.name = 'name'
+        this.price = 'price'
     };
 
 };
