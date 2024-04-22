@@ -1,0 +1,35 @@
+{
+    "product1": {
+        "name": "test-product-1",
+        "price": 14.34,
+        "img": "https://images.app.goo.gl/A4B2yxTveK1gttYt9",
+        "id": 1237
+    },
+
+    "product2": {
+        "name": "test-product-2",
+        "price": 16.43,
+        "img": "https://images.app.goo.gl/A4B2yxTveK1gttYt9",
+        "id": 1238
+    },
+
+    "client": {
+        "name": "Santiago",
+        "lastName": "Delia",
+        "card": 1234567891234567
+    },
+
+    "products": {
+        "product1": {
+            "quantity": 2,
+            "name": "test-product-1",
+            "price": 14.34
+        },
+        "product2": {
+            "quantity": 2,
+            "name": "test-product-2",
+            "price": 16.43
+        }
+    }
+
+}
