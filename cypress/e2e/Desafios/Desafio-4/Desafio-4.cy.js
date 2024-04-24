@@ -2,7 +2,13 @@
 
 describe('Final Challenge', () => {
 
+    /*Limpia la session cada vez que corre el Test
     before(() => {
+        Cypress.session.clearAllSavedSessions();
+    })
+    */
+
+    beforeEach(() => {
         cy.loginSave(Cypress.env().usuario, Cypress.env().password);
         cy.fixture('./Desafios/Desafio-4/datos.json').as('data');
         cy.then(function () {
